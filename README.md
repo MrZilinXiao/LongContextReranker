@@ -3,7 +3,7 @@ Official Implementation of LOCORE: Image Re-ranking with Long-Context Sequence M
 
 Zilin Xiao, Pavel Suma, Ayush Sachdeva, Hao-Jen Wang, Giorgos Kordopatis-Zilos, Giorgos Tolias, Vicente Ordonez
 
-[[arxiv]()] [[project page]()]
+[[arxiv](https://arxiv.org/abs/2503.21772)] [[project page](https://zilin.me/locore/)]
 
 ## Getting Started
 
@@ -21,8 +21,8 @@ pip install -r requirements.txt
 
 ### [*] Download Longformer Pretrained Weights
 You can download the pretrained weights from here:
-- longformer-base-5120: [Google Drive]()
-- longformer-tiny-5120: [Google Drive]()
+- longformer-base-5120: [Google Drive]() or [Research Data Site](https://nas.mrxiao.net/research_data/longformer_base_5120.zip)
+- longformer-tiny-5120: [Google Drive]() or [Research Data Site](https://nas.mrxiao.net/research_data/longformer_tiny_5120.zip)
 
 These weights are adapted from the original Longformer weights using positional encoding interpolation with the method described [here](https://github.com/allenai/longformer/blob/master/scripts/convert_model_to_long.ipynb).
 
