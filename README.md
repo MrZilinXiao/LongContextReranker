@@ -1,9 +1,9 @@
 # LongContextReranker
 Official Implementation of LOCORE: Image Re-ranking with Long-Context Sequence Modeling [CVPR 2025]
 
-Zilin Xiao, Pavel Suma, Ayush Sachdeva, Hao-Jen Wang, Giorgos Kordopatis-Zilos, Giorgos Tolias, Vicente Ordonez
+[Zilin Xiao](https://zilin.me/), [Pavel Suma](https://scholar.google.com/citations?user=Ci_CMMEAAAAJ&hl=en), [Ayush Sachdeva](https://www.linkedin.com/in/ayushsachdeva1/), [Hao-Jen Wang](https://www.linkedin.com/in/hao-jen-wang/), [Giorgos Kordopatis-Zilos](https://gkordo.github.io/), [Giorgos Tolias](https://cmp.felk.cvut.cz/~toliageo/), [Vicente Ordonez](https://www.cs.rice.edu/~vo9/)
 
-[[arxiv](https://arxiv.org/abs/2503.21772)] [[project page](https://zilin.me/locore/)]
+[[arxiv](https://arxiv.org/abs/2503.21772)] [[project page](https://zilin.me/locore/)] [[huggingface demo (TBD)](https://huggingface.co/spaces/vislang/locore)]
 
 ## Getting Started
 
@@ -34,8 +34,7 @@ These weights are adapted from the original Longformer weights using positional 
 
 ### Download LOCORE Checkpoints
 You can download the pretrained LOCORE checkpoints from here if you skipped the training step:
-- LOCORE-small: [Google Drive]()
-- LOCORE-base: [Google Drive]()
+- `locore_base.safetensors`: [Google Drive]() or [Research Data Site](https://nas.mrxiao.net/research_data/locore_base.safetensors)
 
 ### Prepare Testing Dataset
 
