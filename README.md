@@ -22,6 +22,8 @@ pip install -r requirements.txt
 ### Prepare Local Features
 Our latest model operates on DINOv2 local features. Please download the DINOv2 detector model provided by AMES authors [here](http://ptak.felk.cvut.cz/personal/sumapave/public/ames/networks/dinov2_detector.pt). 
 
+Or alternatively, you can download non-1M distractor features and all needed files for evaluation from [Google Drive](https://drive.google.com/file/d/12WOvrZKoV9nZXYi0vXbB8tiNwGzJgncn/view?usp=sharing). 
+
 Prepare the local features for all datasets (replace `/scratch/zx51/ames/` with your own path). Follow similar steps for other datasets:
 
 ```bash
